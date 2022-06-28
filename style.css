@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300;400;700&display=swap');
+
 html, body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px;
@@ -22,6 +24,7 @@ h1{
     text-align: center;
     font-size:2em;
     margin: bottom 10px;
+    font-family: 'Italiana', sans-serif;
 }
 
 section{
@@ -32,14 +35,24 @@ section{
 }
 
 button{
-    color: #f13b12;
+    color: white;
     background-color: #212121;
-    font-weight:bold;
-    border:2px solid ;
+    font-weight: 500;
+    border:2px solid #f13b12;
     font-size: 1.1em;
-    padding:2px 10px;
+    font-family: 'Italiana';
+    padding: 2px 5px;
     cursor: pointer;
     border-radius: 6px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #f13b12;
+    color: #212121;
+    font-weight: 900;
+    border:2px solid #f13b12;
+
 }
 
 .options{
@@ -100,7 +113,13 @@ main{
     }
 
     button{
-        width: 95px;
+        width: 100px;
         font-size: 12px;
+        font-weight: 900;
+    }
+
+    section{
+        justify-items: center;
+        margin: 30px 10px;
     }
 }
