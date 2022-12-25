@@ -21,7 +21,7 @@
 <br><br>
 
 <div align="center">
-  <img height="500" src="https://github.com/MariaE-duarda/Imagens/blob/main/Cardapio-FastFit.png?raw=true" />
+  <img src="https://github.com/MariaE-duarda/Imagens/blob/main/Cardapio-FastFit.png?raw=true" />
 </div>
 
 <p align="center">done with 💖 per:</p>
